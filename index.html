@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container flex">
+      <span class="header__burger"></span>
+      <a href="#" class="header-link">
+        <img src="img/logo.svg" alt="Логотип Окна Хаус" class="header-link__img">
+      </a>
+      <nav class="header-nav">
+        <ul class="header-list flex">
+          <li class="header-item">
+            <a href="#" class="header-item__link">
+              Услуги
+            </a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-item__link">
+              Продукция
+            </a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-item__link">
+              О компании
+            </a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-item__link">
+              Портфолио
+            </a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-item__link">
+              Вопрос-ответ
+            </a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-item__link">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="buttons flex">
+        <button class="header-button">
+          <img src="./img/header_button_1.svg" alt="Заявка на замер" class="header-button__img">
+          Заявка на замер
+        </button>
+        <button class="header-button">
+          <img src="./img/header_button_2.svg" alt="Заказать расчёт" class="header-button__img">
+          Заказать расчёт
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="main-section">
+      <div class="container main-section__container flex">
+        <div class="main-left">
+          <h1 class="main-left__title">
+            Окна Хаус -
+          </h1>
+          <p class="main-left__text">
+            Профессиональный подход к остеклению
+          </p>
+          <ul class="main-list flex">
+            <li class="main-item">
+              <img src="./img/main_window.svg" alt="Логотип окон" class="main-item__img">
+              <p class="main-item__text">
+                Современные окна и&nbsp;балконные конструкции по&nbsp;доступным ценам
+              </p>
+            </li>
+            <li class="main-item">
+              <img src="./img/main_hands.svg" alt="Логотип рук" class="main-item__img">
+              <p class="main-item__text">
+                Квалифицированный подход к&nbsp;решению задач любой сложности
+              </p>
+            </li>
+            <li class="main-item">
+              <img src="./img/mian_blank.svg" alt="Логотип списка" class="main-item__img">
+              <p class="main-item__text">
+                Гарантия высочайшего качества нашей продукции
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="main-right flex">
+          <h3 class="main-right__title">
+            Вызвать замерщика на дом
+          </h3>
+          <form action="" class="flex form">
+            <input type="text" name="Full name" required placeholder="Представтесь, пожалуйста" class="form__input">
+            <input type="tel" name="phone" required placeholder="Номер телефона" class="form__input">
+            <input type="email" name="email" required placeholder="E-mail" class="form__input">
+            <label class="label">
+              <input type="checkbox" name="consent" required class="label__input">
+              <span class="label__text">
+                Согласен на&nbsp;обработку персональных данных в&nbsp;соответствии с&nbsp; <a href="#"
+                  class="label__link">политикой конфиденциальности</a>
+              </span>
+            </label>
+          </form>
+          <button class="main-right__button">
+            Отправить заявку
+          </button>
+          <img src="./img/main_roulette.png" alt="Рулетка" class="main-right__img">
+        </div>
+      </div>
+    </section>
+    <section class="services container">
+      <h2 class="title">
+        Наши услуги
+      </h2>
+      <ul class="services-list flex">
+        <li class="services-item services-item_1">
+          <div class="item-container flex">
+            <img src="./img/services_1.svg" alt="Логотип услуг 1" class="item-container__img">
+            <h3 class="item-container__title">
+              Установка пластиковых окон
+            </h3>
+          </div>
+          <p class="services-item__descr">
+            Устанавливаем пластиковые окна Rehau от&nbsp;проверенного производителя с гарантией качества
+          </p>
+        </li>
+        <li class="services-item services-item_2">
+          <div class="item-container flex">
+            <img src="./img/services_2.svg" alt="Логотип услуг 2" class="item-container__img">
+            <h3 class="item-container__title">
+              Остекление балконов и&nbsp;лоджий
+            </h3>
+          </div>
+          <p class="services-item__descr">
+            Занимаемся остеклением и&nbsp;отделкой балконов и&nbsp;лоджий. Теплое и&nbsp;холодное остекление,
+            изготовление выносов и&nbsp;крыш. Беремся за&nbsp;сложные объекты
+          </p>
+        </li>
+        <li class="services-item services-item_3">
+          <div class="item-container flex">
+            <img src="./img/services_3.svg" alt="Логотип услуг 3" class="item-container__img">
+            <h3 class="item-container__title">
+              Остекление коттеджей и&nbsp;дач
+            </h3>
+          </div>
+          <p class="services-item__descr">
+            Остекление и&nbsp;отделка под ключ: от&nbsp;коттеджей и&nbsp;дач до&nbsp;террас и&nbsp;беседок. Выделяем
+            личного технолога под каждый объект
+          </p>
+        </li>
+        <li class="services-item services-item_4">
+          <div class="item-container flex">
+            <img src="./img/services_4.svg" alt="Логотип услуг 4" class="item-container__img">
+            <h3 class="item-container__title">
+              Остекление корпоративных объектов
+            </h3>
+          </div>
+          <p class="services-item__descr">
+            Реализуем сложные проекты по&nbsp;остеклению торговых центров, ресторанов, производственных помещений
+            и&nbsp;офисов
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="products container flex">
+      <h2 class="title">
+        Продукция
+      </h2>
+      <div class="button-container">
+        <button class="button">
+          Стандарт
+        </button>
+        <button class="button">
+          Бизнес
+        </button>
+        <button class="button">
+          Премиум
+        </button>
+        <button class="button">
+          Эксклюзив
+        </button>
+      </div>
+      <div class="example flex">
+        <img src="./img/products.png" alt="Rehau Blitz New" class="example__img">
+        <div class="text">
+          <h3 class="text__title">
+            Rehau Blitz New
+          </h3>
+          <p class="text__description">
+            Сохраняют тепло в доме, защищают от шума
+            и вписываются в любой интерьер.
+            Практичный выбор
+          </p>
+          <ul class="text-list">
+            <li class="text-item flex">
+              Системная глубина
+              <p class="text-item__paragraph">60/60 мм</p>
+            </li>
+            <li class="text-item flex">
+              Ширина стеклопакета
+              <p class="text-item__paragraph">24/31 мм</p>
+            </li>
+            <li class="text-item flex">
+              Воздушные камеры
+              <p class="text-item__paragraph">3</p>
+            </li>
+            <li class="text-item flex">
+              Теплосопротивление
+              <p class="text-item__paragraph">0,70 м2С/ВТ</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container quality">
+      <div class="quality__container flex">
+        <img src="/img/quality_main.png" alt="Гарантия качества" class="quality__img">
+        <ul class="quality-list flex">
+          <li class="quality-item flex">
+            <img src="/img/quality_1.svg" alt="" class="quality-item__img">
+            <p class="quality-item__text">
+              Сертифицированный производитель Rehau
+            </p>
+          </li>
+          <li class="quality-item flex">
+            <img src="/img/quality_2.svg" alt="" class="quality-item__img">
+            <p class="quality-item__text">
+              Инновационный оконный завод
+            </p>
+          </li>
+          <li class="quality-item flex">
+            <img src="/img/quality_3.svg" alt="" class="quality-item__img">
+            <p class="quality-item__text">
+              Лидер по&nbsp;переработке профилей Rehau в&nbsp;России
+            </p>
+          </li>
+          <li class="quality-item flex">
+            <img src="/img/quality_4.svg" alt="" class="quality-item__img">
+            <p class="quality-item__text">
+              Высокотехнологичное автоматизированное оборудование
+            </p>
+          </li>
+          <li class="quality-item flex">
+            <img src="/img/quality_5.svg" alt="" class="quality-item__img">
+            <p class="quality-item__text">
+              Широкий ассортимент продукции
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="container flex alone-button">
+      <button class="calculate">
+        <img src="./img/header_button_2.svg" alt="Заказать расчёт" class="calculate__img">
+        Заказать расчёт
+      </button>
+    </div>
+    <section class="company container flex">
+      <h2 class="title">
+        О компании
+      </h2>
+      <div class="button-container">
+        <button class="button">
+          Описание
+        </button>
+        <button class="button">
+          Как мы работаем
+        </button>
+        <button class="button">
+          Отзывы
+        </button>
+        <button class="button">
+          Сертификаты
+        </button>
+      </div>
+      <div class="company__example flex">
+        <div class="description">
+          <img class="description__img" src="/img/company_logo.svg" alt="Логотип">
+          <p class="description__text">
+            Мы&nbsp;помогаем клиентам подбирать решения, учитывая пожежелания к&nbsp;характеристикам окна и&nbsp;его
+            стоимости. Окно&nbsp;&mdash; это объект, которым&nbsp;Вы будете пользоваться много лет, поэтому для нас
+            очень важно, чтобы&nbsp;Вы сделали правильный выбор.
+          </p>
+        </div>
+        <img class="company__img" src="./img/company.png" alt="Монтаж окна">
+      </div>
+      <ul class="company__list flex">
+        <li class="company-item flex">
+          <img src="./img/company-item__img_1.svg" alt="" class="company-item__img">
+          <div class="company-item__description">
+            <h4 class="company-item__title">
+              Профессионализм
+            </h4>
+            <p class="company-item__text">
+              Бригада профессиональных мастеров по&nbsp;монтажу и&nbsp;обслуживанию
+            </p>
+          </div>
+        </li>
+        <li class="company-item flex">
+          <img src="./img/company-item__img_2.svg" alt="" class="company-item__img">
+          <div class="company-item__description">
+            <h4 class="company-item__title">
+              Ценообразование
+            </h4>
+            <p class="company-item__text">
+              Лучшие цены на&nbsp;рынке пластиковых окон
+            </p>
+          </div>
+        </li>
+        <li class="company-item flex">
+          <img src="./img/company-item__img_3.svg" alt="" class="company-item__img">
+          <div class="company-item__description">
+            <h4 class="company-item__title">
+              Мобильность
+            </h4>
+            <p class="company-item__text">
+              Заключение договора на&nbsp;дому
+            </p>
+          </div>
+        </li>
+        <li class="company-item flex">
+          <img src="./img/company-item__img_4.svg" alt="" class="company-item__img">
+          <div class="company-item__description">
+            <h4 class="company-item__title">
+              Лояльность
+            </h4>
+            <p class="company-item__text">
+              99% клиентов рекомендуют нас своим друзьям
+            </p>
+          </div>
+        </li>
+        <li class="company-item flex">
+          <img src="./img/company-item__img_5.svg" alt="" class="company-item__img">
+          <div class="company-item__description">
+            <h4 class="company-item__title">
+              Скорость
+            </h4>
+            <p class="company-item__text">
+              Короткие сроки установки изделий
+            </p>
+          </div>
+        </li>
+        <li class="company-item flex">
+          <img src="./img/company-item__img_6.svg" alt="" class="company-item__img">
+          <div class="company-item__description">
+            <h4 class="company-item__title">
+              Служба качества
+            </h4>
+            <p class="company-item__text">
+              Безупречное качество и&nbsp;контроль изделий ПВХ
+            </p>
+          </div>
+        </li>
+      </ul>
+      <button class="request">
+        <img src="./img/header_button_1.svg" alt="Заказать расчёт" class="request__img">
+        Оформить заявку на замер
+      </button>
+    </section>
+    <section class="portfolio container ">
+      <h2 class="title portfolio__title">
+        Портфолио
+      </h2>
+      <ul class="portfolio__list flex">
+        <li class="portfolio__item">
+          <img src="/img/portfolio_1.jpg" alt="Работа 1" class="portfolio__img">
+        </li>
+        <li class="portfolio__item">
+          <img src="/img/portfolio_2.jpg" alt="Работа 2" class="portfolio__img">
+        </li>
+        <li class="portfolio__item">
+          <img src="/img/portfolio_3.jpg" alt="Работа 3" class="portfolio__img">
+        </li>
+        <li class="portfolio__item">
+          <img src="/img/portfolio_4.jpg" alt="Работа 4" class="portfolio__img">
+        </li>
+      </ul>
+    </section>
+    <section class="answer container">
+      <h2 class="title answer__title">
+        Вопрос-ответ
+      </h2>
+      <ul class="answer__list">
+        <li class="answer__item">
+          <details class="answer__details">
+            <summary class="answer__summary flex">
+              Сколько по&nbsp;времени занимает изготовление пластиковых окон?
+              <svg class="answer__img" width="30" height="17" view-box="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1.5L15 15.5L29 1.5" stroke="#2F2F51" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </summary>
+            <p class="answer__text">
+              2 недели
+            </p>
+          </details>
+        </li>
+        <li class="answer__item">
+          <details class="answer__details">
+            <summary class="answer__summary flex">
+              Какие существуют способы оплаты?
+              <svg class="answer__img" width="30" height="17" view-box="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1.5L15 15.5L29 1.5" stroke="#2F2F51" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </summary>
+            <p class="answer__text">
+              По карте и наличными
+            </p>
+          </details>
+        </li>
+        <li class="answer__item">
+          <details class="answer__details">
+            <summary class="answer__summary flex">
+              Где я могу посмотреть образцы?
+              <svg class="answer__img" width="30" height="17" view-box="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1.5L15 15.5L29 1.5" stroke="#2F2F51" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </summary>
+            <p class="answer__text">
+              В нашем Портфолио
+            </p>
+          </details>
+        </li>
+        <li class="answer__item">
+          <details class="answer__details">
+            <summary class="answer__summary flex">
+              Зачем вызывать замерщика? Я&nbsp;могу дать размеры
+              <svg class="answer__img" width="30" height="17" view-box="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1.5L15 15.5L29 1.5" stroke="#2F2F51" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </summary>
+            <p class="answer__text">
+              Он сделает лучше!
+            </p>
+          </details>
+        </li>
+        <li class="answer__item">
+          <details class="answer__details">
+            <summary class="answer__summary flex">
+              Хотелось&nbsp;бы отделать балкон. Поможете?
+              <svg class="answer__img" width="30" height="17" view-box="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1.5L15 15.5L29 1.5" stroke="#2F2F51" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </summary>
+            <p class="answer__text">
+              Конечно!
+            </p>
+          </details>
+        </li>
+        <li class="answer__item">
+          <details class="answer__details">
+            <summary class="answer__summary flex">
+              Мне надо нанимать грузчиков для подъема?
+              <svg class="answer__img" width="30" height="17" view-box="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1.5L15 15.5L29 1.5" stroke="#2F2F51" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </summary>
+            <p class="answer__text">
+              Нет, команда мастеров все сами аккуратно доставят и&nbsp;внесут.
+            </p>
+          </details>
+        </li>
+      </ul>
+    </section>
+    <section class="contacts container">
+      <h2 class="title contacts__title">
+        Контакты
+      </h2>
+      <div class="contacts__container flex">
+        <div class="contacts__info">
+          <p class="contacts__text">
+            Бесплатная консультация:
+          </p>
+          <ul class="contacts__list">
+            <li class="contacts-item flex">
+              <svg class="contacts-item__img" width="25" height="27" view-box="0 0 25 27" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4.6875 0.205078C4.6875 0.205078 3.90625 0.205078 3.90625 0.986328C3.125 0.986328 3.125 1.76758 2.34375 1.76758C2.34375 2.54883 2.34375 2.54883 1.5625 2.54883V4.11133C0.78125 4.11133 0.78125 4.11133 0.78125 4.11133C0.78125 4.11133 0.78125 4.11133 0.78125 4.89258V5.67383C0 5.67383 0 5.67383 0 6.45508V7.23633C0 8.01758 0 8.01758 0 8.01758C0 8.01758 0 8.01758 0 8.79883V9.58008C0 10.3613 0 10.3613 0 10.3613L0.78125 11.1426C0.78125 11.9238 0.78125 11.9238 0.78125 11.9238V12.7051L1.5625 13.4863C1.5625 14.2676 1.5625 14.2676 1.5625 14.2676C1.5625 14.2676 1.5625 14.2676 1.5625 15.0488H2.34375V15.8301C2.34375 15.8301 2.34375 15.8301 3.125 15.8301V16.6113L3.90625 17.3926C3.90625 17.3926 3.90625 17.3926 3.90625 18.1738C4.6875 18.1738 3.90625 18.1738 3.90625 18.1738C4.6875 18.1738 4.6875 18.9551 5.46875 18.9551L6.25 20.5176L7.03125 21.2988C7.8125 22.0801 7.8125 21.2988 7.8125 22.0801C7.8125 22.0801 8.59375 22.0801 8.59375 22.8613L10.1562 23.6426C10.1562 23.6426 10.1562 23.6426 10.1562 24.4238C10.1562 24.4238 10.1562 24.4238 10.9375 24.4238C11.7188 24.4238 10.9375 24.4238 11.7188 24.4238L12.5 25.2051C13.2812 25.2051 13.2812 25.9863 13.2812 25.9863H14.0625C14.8438 25.9863 14.8438 25.9863 14.8438 25.9863C14.8438 25.9863 14.8438 25.9863 15.625 25.9863L16.4062 26.7676H17.9688L19.5312 25.9863H20.3125C20.3125 25.9863 20.3125 25.9863 21.0938 25.2051C21.875 25.2051 21.875 25.2051 21.875 25.2051L22.6562 24.4238C22.6562 23.6426 22.6562 23.6426 23.4375 23.6426L24.2188 22.8613C24.2188 22.8613 24.2188 22.8613 24.2188 22.0801V21.2988C24.2188 20.5176 24.2188 20.5176 24.2188 20.5176C23.4375 20.5176 23.4375 20.5176 23.4375 20.5176C23.4375 19.7363 23.4375 20.5176 23.4375 19.7363C22.6562 19.7363 22.6562 19.7363 22.6562 19.7363C22.6562 18.9551 22.6562 18.9551 22.6562 18.9551C22.6562 18.9551 22.6562 18.9551 21.875 18.9551L20.3125 17.3926H19.5312L18.75 16.6113L17.9688 17.3926H17.1875C17.1875 17.3926 17.1875 17.3926 16.4062 18.1738H15.625C15.625 18.9551 14.8438 18.9551 14.8438 19.7363H14.0625H13.2812C13.2812 19.7363 12.5 19.7363 12.5 18.9551C12.5 18.9551 12.5 18.9551 11.7188 18.9551L10.1562 17.3926C10.1562 16.6113 8.59375 15.8301 8.59375 15.0488C7.8125 15.0488 8.59375 15.0488 7.8125 15.0488C7.8125 15.0488 7.8125 15.0488 7.8125 14.2676L7.03125 13.4863V12.7051C6.25 11.9238 6.25 11.1426 6.25 11.1426C6.25 10.3613 7.03125 10.3613 7.03125 9.58008C7.03125 9.58008 7.03125 9.58008 7.8125 9.58008L8.59375 8.79883C8.59375 8.01758 8.59375 8.01758 8.59375 8.01758C9.375 7.23633 10.1562 7.23633 9.375 6.45508V5.67383V4.89258V4.11133L8.59375 3.33008L7.8125 2.54883C7.8125 1.76758 7.8125 1.76758 7.8125 1.76758H7.03125V0.986328C7.03125 0.986328 6.25 0.986328 6.25 0.205078H5.46875H4.6875V0.205078ZM12.5 9.58008H13.2812C13.2812 9.58008 14.0625 10.3613 14.8438 10.3613H15.625C15.625 11.1426 16.4062 11.1426 16.4062 11.1426V11.9238C16.4062 11.9238 17.1875 11.9238 17.1875 12.7051V13.4863C17.1875 13.4863 17.1875 13.4863 17.1875 14.2676L17.9688 15.0488H20.3125V14.2676L19.5312 13.4863V12.7051V11.9238C19.5312 11.9238 19.5312 11.9238 19.5312 11.1426H18.75V10.3613H17.9688C17.9688 9.58008 17.9688 10.3613 17.9688 9.58008C17.1875 9.58008 17.1875 9.58008 17.1875 8.79883C16.4062 8.79883 16.4062 8.79883 16.4062 8.79883C16.4062 8.01758 14.8438 8.01758 14.8438 8.01758H14.0625L13.2812 7.23633H12.5V9.58008ZM12.5 4.89258H13.2812H14.0625C14.0625 4.89258 14.0625 4.89258 14.0625 5.67383H14.8438C15.625 5.67383 15.625 5.67383 16.4062 5.67383C16.4062 5.67383 17.1875 6.45508 17.9688 6.45508L18.75 7.23633C19.5312 7.23633 18.75 7.23633 19.5312 7.23633C19.5312 8.01758 19.5312 8.01758 19.5312 8.01758C20.3125 8.01758 20.3125 8.01758 20.3125 8.79883L21.0938 9.58008L21.875 11.1426C21.875 11.9238 21.875 11.9238 21.875 12.7051L22.6562 13.4863V15.0488H23.4375C24.2188 14.2676 24.2188 15.0488 25 15.0488V14.2676V13.4863L24.2188 12.7051V11.9238V11.1426V10.3613L23.4375 9.58008C23.4375 9.58008 23.4375 9.58008 23.4375 8.79883C22.6562 8.79883 22.6562 8.01758 22.6562 8.01758C22.6562 8.01758 22.6562 8.01758 22.6562 7.23633C22.6562 7.23633 22.6562 7.23633 21.875 7.23633C21.875 6.45508 21.875 6.45508 21.875 6.45508C21.875 6.45508 21.875 6.45508 21.0938 6.45508C21.0938 6.45508 21.0938 6.45508 21.0938 5.67383C20.3125 5.67383 20.3125 5.67383 20.3125 5.67383C20.3125 4.89258 20.3125 4.89258 20.3125 4.89258H19.5312C19.5312 4.89258 18.75 4.89258 18.75 4.11133H17.9688C17.9688 4.11133 17.9688 4.11133 17.1875 4.11133C17.1875 3.33008 17.1875 3.33008 17.1875 3.33008H16.4062H15.625H14.8438V2.54883H14.0625C13.2813 2.54883 13.2812 2.54883 13.2812 2.54883H12.5V4.89258Z"
+                  fill="#EF7F1A" />
+              </svg>
+              <a href="tel:+74932343140" class="contacts-item__link">
+                8 (4932) 34 - 31 - 40
+              </a>
+              <a href="tel:+79051093140" class="contacts-item__link">
+                8 (905) 109 - 31 - 40
+              </a>
+            </li>
+            <li class="contacts-item flex">
+              <svg class="contacts-item__img" width="22" height="26" view-box="0 0 22 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M10 0.471191C15.3846 0.471191 20 5.08658 20 10.4712C20 15.8558 12.3077 25.8558 10 25.8558C6.92308 25.8558 0 15.8558 0 10.4712C0 5.08658 4.61538 0.471191 10 0.471191ZM10 5.85581C12.3077 5.85581 14.6154 8.1635 14.6154 10.4712C14.6154 13.5481 12.3077 15.0866 10 15.0866C6.92308 15.0866 5.38462 13.5481 5.38462 10.4712C5.38462 8.1635 6.92308 5.85581 10 5.85581Z"
+                  fill="#EF7F1A" />
+              </svg>
+              <p class="contacts-item__info">
+                г. Иваново, ул. Генерала Хлебникова, д.54, оф.303
+              </p>
+            </li>
+            <li class="contacts-item flex">
+              <svg class="contacts-item__img" width="22" height="23" view-box="0 0 22 23" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M22 11.0801V20.6134C22 21.3467 21.2667 22.0801 20.5333 22.0801H2.2C0.733333 22.0801 0 21.3467 0 20.6134V11.0801L11 16.2134L22 11.0801Z"
+                  fill="#EF7F1A" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M2.2 10.3467H3.66667V6.68008C3.66667 5.94674 4.4 5.21341 5.13333 5.21341H17.6C18.3333 5.21341 19.0667 5.94674 19.0667 6.68008V10.3467H20.5333C21.2667 10.3467 22 9.61341 22 8.88008V5.21341L11 0.0800781L0 5.21341V8.88008C0 9.61341 0.733333 10.3467 2.2 10.3467Z"
+                  fill="#EF7F1A" />
+              </svg>
+              <a href="#" class="contacts-item__info">
+                okna@haus.ru
+              </a>
+            </li>
+          </ul>
+          <p class="contacts__description">
+            Установку должны выполнять только эксперты. Нам доверяют сотни семей.
+            Узнайте поробнее, какие решения вам подходят. Вы&nbsp;можете приобрести недорогие товары при гарантированно
+            высоком качестве.
+          </p>
+          <ul class="contacts-reference flex">
+            <li class="contacts-reference__item">
+              <a href="#" class="contacts-reference__link">
+                <svg class="contacts-reference__img" width="24" height="23" view-box="0 0 24 23" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.7478 1.79736H1.63501V21.6402H22.7478V1.79736Z" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M8.59737 15.3848V6.29425H12.0079C12.7024 6.29425 13.2584 6.38726 13.6759 6.57329C14.0976 6.75518 14.4262 7.03836 14.6618 7.42281C14.9016 7.80314 15.0215 8.20206 15.0215 8.61959C15.0215 9.00818 14.9161 9.37403 14.7053 9.71715C14.4944 10.0603 14.1761 10.3372 13.7503 10.5481C14.3001 10.7093 14.7218 10.9842 15.0153 11.3728C15.3129 11.7614 15.4618 12.2202 15.4618 12.7494C15.4618 13.1752 15.3708 13.572 15.1889 13.94C15.0112 14.3037 14.79 14.5848 14.5254 14.7833C14.2609 14.9817 13.9281 15.1326 13.5271 15.2359C13.1302 15.3352 12.6424 15.3848 12.0637 15.3848H8.59737ZM9.80034 10.114H11.766C12.2993 10.114 12.6817 10.0789 12.9132 10.0086C13.2191 9.91764 13.4485 9.76675 13.6015 9.55592C13.7586 9.34509 13.8371 9.08052 13.8371 8.76221C13.8371 8.46043 13.7648 8.19586 13.6201 7.96849C13.4754 7.73699 13.2687 7.5799 13 7.49723C12.7313 7.41041 12.2704 7.36701 11.6172 7.36701H9.80034V10.114ZM9.80034 14.312H12.0637C12.4523 14.312 12.7251 14.2975 12.8822 14.2686C13.1592 14.219 13.3907 14.1363 13.5767 14.0206C13.7627 13.9048 13.9157 13.7374 14.0356 13.5183C14.1554 13.2951 14.2154 13.0388 14.2154 12.7494C14.2154 12.4104 14.1286 12.1169 13.9549 11.8689C13.7813 11.6167 13.5395 11.441 13.2294 11.3418C12.9235 11.2384 12.4812 11.1868 11.9024 11.1868H9.80034V14.312Z"
+                    fill="#EF7F1A" />
+                </svg>
+              </a>
+            </li>
+            <li class="contacts-reference__item">
+              <a href="#" class="contacts-reference__link">
+                <svg class="contacts-reference__img" width="24" height="27" view-box="0 0 24 27" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.8775 1.79736H1.76465V21.6402H22.8775V1.79736Z" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M13.6502 21.083V11.6272H12.0195V10.1914H13.6502V9.03253C13.6502 8.30095 13.7151 7.7574 13.845 7.40187C14.0228 6.92327 14.3339 6.53697 14.7783 6.24297C15.2295 5.94213 15.8586 5.79172 16.6653 5.79172C17.185 5.79172 17.7593 5.85325 18.3883 5.97632L18.1114 7.58647C17.7285 7.5181 17.3662 7.48391 17.0243 7.48391C16.4637 7.48391 16.0671 7.60356 15.8346 7.84286C15.6022 8.08216 15.4859 8.53 15.4859 9.18636V10.1914H17.6089V11.6272H15.4859V21.083H13.6502Z"
+                    fill="#EF7F1A" />
+                </svg>
+              </a>
+            </li>
+            <li class="contacts-reference__item">
+              <a href="#" class="contacts-reference__link">
+                <svg class="contacts-reference__img" width="24" height="23" view-box="0 0 24 23" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.9597 1.79736H1.84692V21.6402H22.9597V1.79736Z" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M12.4827 15.9256C14.8498 15.9256 16.7687 14.0067 16.7687 11.6396C16.7687 9.27245 14.8498 7.35352 12.4827 7.35352C10.1156 7.35352 8.19662 9.27245 8.19662 11.6396C8.19662 14.0067 10.1156 15.9256 12.4827 15.9256Z"
+                    stroke="#EF7F1A" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M19.6261 6.40091C20.0645 6.40091 20.4198 6.04555 20.4198 5.60719C20.4198 5.16883 20.0645 4.81348 19.6261 4.81348C19.1878 4.81348 18.8324 5.16883 18.8324 5.60719C18.8324 6.04555 19.1878 6.40091 19.6261 6.40091Z"
+                    stroke="#EF7F1A" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="contacts-reference__item">
+              <a href="#" class="contacts-reference__link">
+                <svg class="contacts-reference__img" width="25" height="23" view-box="0 0 25 23" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.042 1.79736H1.9292V21.6402H23.042V1.79736Z" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M7.80273 10.5282L18.121 6.24219L14.9462 17.6717L10.6601 14.9731L7.64398 15.1318L13.0412 11.6394"
+                    stroke="#EF7F1A" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="contacts-reference__item">
+              <a href="#" class="contacts-reference__link">
+                <svg class="contacts-reference__img" width="24" height="23" view-box="0 0 24 23" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.9654 1.79736H1.85254V21.6402H22.9654V1.79736Z" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M10.1072 7.19482L16.1394 11.4809L10.1072 15.132V7.19482Z" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+            <li class="contacts-reference__item">
+              <a href="#" class="contacts-reference__link">
+                <svg class="contacts-reference__img" width="24" height="23" view-box="0 0 24 23" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.365 1.79736H1.2522V21.6402H22.365V1.79736Z" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M11.888 11.4805C13.5538 11.4805 14.9041 10.1301 14.9041 8.46436C14.9041 6.7986 13.5538 5.44824 11.888 5.44824C10.2222 5.44824 8.87189 6.7986 8.87189 8.46436C8.87189 10.1301 10.2222 11.4805 11.888 11.4805Z"
+                    stroke="#EF7F1A" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path
+                    d="M15.2216 12.7505C14.9041 13.7029 13.4754 14.3379 11.888 14.3379C10.1418 14.3379 8.71312 13.7029 8.39563 12.7505"
+                    stroke="#EF7F1A" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M15.5391 17.5127L11.888 14.3379L8.07819 17.8302" stroke="#EF7F1A" stroke-width="2"
+                    stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <img class="contacts__img" src="/img/contacts_workers.png" alt="Работники">
+        </div>
+        <div class="contacts-right flex">
+          <h3 class="contacts-right__title">
+            Остались вопросы?
+          </h3>
+          <form action="" class="flex form contacts-right__form">
+            <input type="text" name="Full name" required placeholder="Ваше имя" class="form__input contacts__input">
+            <input type="email" name="email" required placeholder="E-mail" class="form__input contacts__input">
+            <textarea name="review" cols="30" rows="5" required placeholder="Ваш отзыв"
+              class="form__input contacts__input "></textarea>
+            <label class="contacts-label">
+              <input type="checkbox" name="consent" required class="contacts-label__input">
+              <span class="contacts-label__text">
+                Я&nbsp;согласен(на) на&nbsp;обработку <a href="#" class="contacts-label__link">персональных данных</a>
+              </span>
+            </label>
+          </form>
+          <button class="contacts-right__button">
+            Отправить сообщение
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container flex">
+      <div class="footer-left flex">
+        <a href="#" class="footer__link">
+          <img class="footer__img" src="/img/footer_logo.svg" alt="Логотип">
+        </a>
+        <p class="footer__text">
+          © ООО “Окна Хаус”, 2011 - 2022
+        </p>
+      </div>
+      <div class="footer-right">
+        <a href="#" class="footer-right__link">
+          Политика кофиденциальности
+        </a>
+        <a href="#" class="footer-right__link">
+          Пользовательское соглашение
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
